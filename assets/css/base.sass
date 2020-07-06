@@ -1,0 +1,82 @@
+---
+---
+$font_color: #f3f3f3
+$footer_bg: #333333
+$main_bg: #606060
+$nav_bg: #737373
+$hero_image: url('../../assets/img/hero-bg.png')
+$title_font: 'Bebas Neue', serif
+$body_font: 'Montserrat', sans-serif
+$menu_font: 'Quicksand', sans-serif
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Quicksand:wght@700&display=swap')
+
+html
+  width: 100%
+  margin: 0
+
+body
+  background-color: black
+  width: 100%
+  margin: 0
+  display: flex
+  flex-flow: column nowrap
+  color: $font_color
+
+header
+  order: 0
+  h1
+    font-family: $title_font
+    font-size: 400%
+    margin: 0 auto
+    text-align: center
+    a
+      color: red
+      text-decoration: none
+      text-transform: uppercase
+  .hero
+    height: 900px
+    background: $hero_image no-repeat center center fixed
+    background-color: transparent
+    background-size: 100% 100%
+    display: flex
+    flex-flow: column nowrap
+    justify-content: space-evenly
+
+main
+  order: 2
+  font-family: $body_font
+  background: $main_bg
+  margin: 0 auto
+  padding: 5px 25px
+  display: flex
+  flex-direction: column
+
+aside
+  order: 1
+  background: $nav_bg
+  nav
+    ul
+      display: flex
+      flex-flow: row nowrap
+      justify-content: space-evenly
+      li
+        list-style: none
+        font-family: $menu_font 
+        a
+          color: black
+          text-decoration: none
+        
+footer
+  order: 3
+  background: $footer_bg
+  color: $font_color
+  .wrapper
+    h5
+      text-align: center
+      font-family: $title_font
+      font-size: 200%
+    .footer-col-wrapper
+      display: flex
+      flex-flow: row wrap
+      justify-content: space-evenly

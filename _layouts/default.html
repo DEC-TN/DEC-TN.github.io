@@ -2,19 +2,22 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    {% include header.html %}
-    <main class="page">
-      <main class="content" aria-label="Content">
-        {{ content }}
-      </main>
+    <header class="site-header" role="banner">
+      {% include header.html %}
+    </header>
 
-      <aside class="sidebar">
-        {% include menu.html %}
-      </aside>
-      
+    <main class="page">
+      {{ content }}
     </main>
+
+    <aside class="sidebar">
+      {% include menu.html %}
+    </aside>
+      
     <footer>
       {% include footer.html %}
     </footer>
+
+    <section id="scripts"></section>
   </body>
 </html>
