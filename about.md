@@ -6,15 +6,4 @@ page-category: menu
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The Equal Rights Coalition-TN is a civil rights organization based in West Tennessee. Our vision is to advocate for the fair and equal treatment of all citizens as well as creating awareness towards the injustices in our communities and the world. Each day we are working towards a common goal for the prosperity and advancement for all citizens. We strive to uplift the oppressed, speak out for the silenced, and assist in shaping our communities and a better world for future generations to come.
