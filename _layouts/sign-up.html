@@ -2,20 +2,24 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    {% include header.html %}
+    <header class="site-header" role="banner">
+      {% include header.html %}
+    </header>
+    
     <main class="page">
-      <main class="content" aria-label="Content">
-        {{ content }}
-      </main>
-
-      <aside class="sidebar">
-        {% include menu.html %}
-      </aside>
-      
+      {{ content }}
     </main>
+
+    <aside class="sidebar">
+      {% include menu.html %}
+    </aside>
+      
     <footer>
       {% include footer.html %}
     </footer>
-    <script src="../assets/js/registration-form.js"></script>
+
+    <section id="scripts">
+      <script src="../assets/js/registration-form.js"></script>
+    </section>
   </body>
 </html>
