@@ -31,14 +31,15 @@ header
     margin: 0 auto
     text-align: center
     a
-      color: red
+      color: $font_color
+      text-shadow: 0px 2px 3px rgba(50, 50, 50, 0.8)
       text-decoration: none
       text-transform: uppercase
   .hero
     height: 900px
     background: $hero_image no-repeat center center fixed
     background-color: transparent
-    background-size: 100% 100%
+    background-size: cover
     display: flex
     flex-flow: column nowrap
     justify-content: space-evenly
@@ -64,8 +65,12 @@ aside
         list-style: none
         font-family: $menu_font 
         a
-          color: black
+          color: $font_color
           text-decoration: none
+          &:hover
+            color: white
+          &:focus
+            color: white
         
 footer
   order: 3
