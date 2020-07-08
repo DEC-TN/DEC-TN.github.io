@@ -30,6 +30,10 @@ Mac/Linux:
 Windows:
   * I'll add instructions for Windows users when I get a PC to test on.
   
+**Editing Files**
+
+If you're feeling brave, you can use a text editor older than you called `vim`. There are countless memes about how difficult it is to close vim though, so you'd be better off using something like [Atom](https://atom.io/). You can also use Atom to create your Pull Requests, but I have not done so, I'm a terminal person myself.
+  
 **Theming**
 
 Jekyll uses [SASS](https://sass-lang.com) to preprocess stylesheets. It is a wonderful thing to not have to edit a million slightly differing stylesheets for different pages anymore.
