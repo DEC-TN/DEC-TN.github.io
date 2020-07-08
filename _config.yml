@@ -16,12 +16,16 @@
 title: Equal Rights Coalition of Tennessee
 email: equalrightstn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Equal Rights Coalition-TN is a civil rights organization based in West Tennessee. 
+  Our vision is to advocate for the fair and equal treatment of all citizens as well as 
+  creating awareness towards the injustices in our communities and the world. Each day 
+  we are working towards a common goal for the prosperity and advancement for all citizens. 
+  We strive to uplift the oppressed, speak out for the silenced, and assist in shaping our 
+  communities and a better world for future generations to come. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://erc-tn.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
+# facebook_page: ERC-TN
 github_username: ERC-TN
 
 # Build settings
